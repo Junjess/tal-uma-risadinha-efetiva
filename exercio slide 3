@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+import javax.xml.transform.SourceLocator;
+public class Exercicio2 {
+    
+    public static void main(String [] args){
+   Scanner input = new Scanner(System.in);
+   
+   String nome;
+        System.out.print("Escreva seu nome: ");
+        nome = input.nextLine();
+        
+    int idade;
+        System.out.print("Digite sua idade: ");
+        idade = Integer.valueOf(input.nextLine());
+
+    double peso;
+        System.out.print("Digite seu peso: ");
+        peso = Double.valueOf(input.nextLine());
+
+    char genero;
+        System.out.print("Digite seu gênero: ");
+        genero = input.nextLine ().charAt(0);
+
+    boolean matricula;
+        System.out.print("Você está matriculado (true ou false)? ");
+    matricula = Boolean.valueOf(input.nextLine());
+
+    System.out.println("Dados digitados:");
+
+    System.out.println(nome);
+    System.out.println(idade);
+    System.out.println(peso);
+    System.out.println(genero);
+    System.out.println(matricula);
+
+    }
+}
