@@ -1,15 +1,18 @@
+package exercício3.pkg3;
+
 import java.util.Scanner;
 
-import javax.xml.transform.SourceLocator;
-public class Exercicio2 {
+public class Exercício33 {
+    public static void main(String[] args) {
     
-    public static void main(String [] args){
-   Scanner input = new Scanner(System.in);
-   
+        Scanner input = new Scanner(System.in);
+
    String nome;
-        System.out.print("Escreva seu nome: ");
+   // Entrada de dados
+        System.out.print("Digite seu nome: ");
         nome = input.nextLine();
-        
+
+  
     int idade;
         System.out.print("Digite sua idade: ");
         idade = Integer.valueOf(input.nextLine());
@@ -26,6 +29,8 @@ public class Exercicio2 {
         System.out.print("Você está matriculado (true ou false)? ");
     matricula = Boolean.valueOf(input.nextLine());
 
+    // Saída de dados
+    System.out.println("");
     System.out.println("Dados digitados:");
 
     System.out.println(nome);
@@ -35,4 +40,5 @@ public class Exercicio2 {
     System.out.println(matricula);
 
     }
+    
 }
