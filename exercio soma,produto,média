@@ -1,2 +1,33 @@
-# tal-uma-risadinha-efetiva
-# aula 3
+package exercicio.aula.pkg3;
+
+import java.util.Scanner;
+
+public class ExercicioAula3 {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        
+        int j,x,y,soma,produto,media;
+        System.out.print("Digite o primeiro número: ");
+        j = Integer.valueOf(input.nextLine());
+        
+        System.out.print("Digite o segundo número: ");
+        x =  Integer.valueOf(input.nextLine());
+        
+        System.out.print("Digite o terceiro número: ");
+        y =  Integer.valueOf(input.nextLine());
+        
+        soma = j+x+y;
+        produto = j*x*y;
+        media = (j+x)/2;
+        
+        System.out.println("");
+        System.out.println("Resultado:");
+        System.out.println("Soma: " +soma);
+        System.out.println("Produto: " +produto);
+        System.out.println("Média: " +media);
+                     
+            
+    }
+    
+}
