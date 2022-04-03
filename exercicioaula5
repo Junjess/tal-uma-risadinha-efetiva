@@ -1,0 +1,24 @@
+    public static void main(String[] args){
+     Scanner input = new Scanner(System.in);
+
+
+double x,y,z,m;
+boolean notafinal;
+
+    System.out.print("Digite a primeira nota: ");
+    x= Double.valueOf(input.nextLine());
+
+    System.out.print("Digite a segunda nota: ");
+    y= Double.valueOf(input.nextLine());
+
+    System.out.print("Digite a terceira nota: ");
+    z= Double.valueOf(input.nextLine());
+
+
+    m=(x+y+z)/3;
+
+    notafinal= m >= 6;
+
+
+    System.out.println("");
+    System.out.println("Aluno foi aprovado: " +notafinal);
